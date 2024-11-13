@@ -16,3 +16,10 @@
   </div>
   <p>{{mensaje}}</p>
 </section>
+<button (click)="ocultarPeliculas()">Ocultar peliculas</button>
+
+@if(mostrarPeliculas){
+  <app-peliculas ></app-peliculas>
+}
+
+
